@@ -12,6 +12,7 @@ The artist classifier portion of this project aims to identify the artists of pa
 
 For the model training, we tried five pre-trained CNNs from pytorch: EfficientNet, ConvNext, MobileNet, ResNet and VGG16. We fine tuned the model via transfer learning techniques, which drastically reduced the training time compared to training models from scratch. We also used a free GPU on Google Colaboratory to speed up the training process. All models were trained with the same training/validation/test set. They perform similarly for different artists, with da Vinci seemingly the most difficult to classify in all models. Individual model accuracy ranges between 83% - 88%. We implemented a random forest voter model, but found that it failed to increase the performance above that of the top performing CNN model. However, we found that implementing a hard voting model led to an increase in accuracy, up to approximately 90%.
 
+<img src="Images/ModelAccuracy.png" alt="Model Accuracy" width="250"/>
 ![model accuracy](Images/ModelAccuracy.png)
 ![confusion matrix](Images/hardvoting_confusionmatrix.png)
 
