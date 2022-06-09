@@ -26,6 +26,8 @@ Interactive web applications have been deployed for the [artist classifier](http
 
 <p align="center">
   <img src="Images/artist_check.png" alt="Classifier App Example" width="500"/>
-  <p>&nbsp;</p>
+</p>
+  
+<p align="center">
   <img src="Images/style_transfer.png" alt="Style Transfer App Example" width="500"/>
 </p>
