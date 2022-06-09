@@ -14,7 +14,7 @@ For the model training, we tried five pre-trained CNNs from pytorch: EfficientNe
 
 <p align="center">
   <img src="Images/ModelAccuracy.png" alt="Model Accuracy" width="500"/>
-  
+  <p>&nbsp;</p>
   <img src="Images/hardvoting_confusionmatrix.png" alt="Final Model Confusion Matrix" width="500"/>
 </p>
 
@@ -24,6 +24,6 @@ Interactive web applications have been deployed for the [artist classifier](http
 
 <p align="center">
   <img src="Images/artist_check.png" alt="Classifier App Example" width="500"/>
-  
+  <p>&nbsp;</p>
   <img src="Images/style_transfer.png" alt="Style Transfer App Example" width="500"/>
 </p>
