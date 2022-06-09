@@ -15,11 +15,11 @@ h1.title {
   text-align: center;
 }
 
-h2.logo {
+#h2.logo {
   #font-size: 38px;
   #color: DarkRed;
-  text-align: center;
-}
+#  text-align: center;
+#}
 
 </style>
 
