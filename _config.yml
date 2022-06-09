@@ -7,19 +7,3 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 theme: jekyll-theme-minimal
 
-<style type="text/css">
-
-h1.title {
-  #font-size: 38px;
-  #color: DarkRed;
-  text-align: center;
-}
-
-#h2.logo {
-  #font-size: 38px;
-  #color: DarkRed;
-#  text-align: center;
-#}
-
-</style>
-
