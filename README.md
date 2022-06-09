@@ -12,6 +12,12 @@ The artist classifier portion of this project aims to identify the artists of pa
 
 For the model training, we tried five pre-trained CNNs from pytorch: EfficientNet, ConvNext, MobileNet, ResNet and VGG16. We fine tuned the model via transfer learning techniques, which drastically reduced the training time compared to training models from scratch. We also used a free GPU on Google Colaboratory to speed up the training process. All models were trained with the same training/validation/test set. They perform similarly for different artists, with da Vinci seemingly the most difficult to classify in all models. Individual model accuracy ranges between 83% - 88%. We implemented a random forest voter model, but found that it failed to increase the performance above that of the top performing CNN model. However, we found that implementing a hard voting model led to an increase in accuracy, up to approximately 90%.
 
+![model accuracy](Images/ModelAccuracy.png)
+![confusion matrix](Images/hardvoting_confusionmatrix.png)
+
 The same techniques used by pre-trained CNNs to classify different images based on identification of features of their artist’s style can be used to transfer those features to other images. More specifically, a model can be fine-tuned on an image to learn its style, and then that style can be applied to a new image. A popular tool for this is Magenta, which is available in TensorFlow_Hub and is based on the framework of the MobileNet CNN, and we used it to build the artist style transfer tool.
 
 Interactive web applications have been deployed for the [artist classifier](https://huggingface.co/spaces/czkaiweb/StarryNight) and the [style transfer model](https://huggingface.co/spaces/breynolds1247/StarryNight_StyleTransfer). Play around and have fun! 
+
+![classifier app example](Images/artist_check.png)
+![style transfer app example](Images/style_transfer.png)
