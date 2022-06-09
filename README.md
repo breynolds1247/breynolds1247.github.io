@@ -2,7 +2,7 @@
 
 Welcome to my personal project webpage! I'll be using this page to compile my projects into one convenient location as I use data science to tackle interesting questions (and learn some useful skills along the way).
 
-See below for summaries of my featured projects and click the titles for links to their respective repositories on GitHub.
+See below for summaries of my featured projects and click the titles for links to their respective repositories on GitHub where full, detailed Readme files and source code may be viewed.
 
 ## 1. [Artist Classifier and Image Style Transfer with Machine Learning](https://github.com/breynolds1247/artistClassifier_and_styleTransfer)
 
