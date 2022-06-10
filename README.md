@@ -1,4 +1,4 @@
-# Bryan's Project Page
+# Project Portfolio
 
 Welcome to my personal project webpage! I'll be using this page to compile my projects into one convenient location as I use data science to tackle interesting questions (and learn some useful skills along the way).
 
