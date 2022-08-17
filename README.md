@@ -36,8 +36,40 @@ Interactive web applications have been deployed for the [artist classifier](http
 
 Slides for this project presentation given to The Erdos Institute are available [here](Content/starryNight_slides.pdf). 
 
+## 2. [Exploratory Data Analysis Work Sample](https://github.com/breynolds1247/NN_technicalAssessment/blob/main/ExploratoryAnalysis.ipynb)
 
-## 2. [Web Scraping and Visualizing NFL Fantasy Football Stats](https://github.com/breynolds1247/projects/tree/main/NFLPlayerStatVisualizations)
+**Technical skills used in this project:** Python (Pandas, Numpy, Matplotlib, Seaborn, Plotly), Jupyter Notebooks, Data Cleaning, Time Series Analysis, Data Visualizations, Interactive Visualizations
+
+This project was completed as a work sample for a company that provides a service to increase network performance for multiplayer video games. The assignment was to perform an exploratory data analysis given a dataset containing network performance and user information.
+
+The first step was to clean the data. I did this by removing duplicate rows, as well as those with unexpected null or zero-valued entries. Additionally, I cleaned up the variable types where applicable.
+
+For the EDA, I investigated key performance metrics for various subsets of the user data under different conditions and identified the benefits of using the company's product via succinct data visualizations. I also investigated the user location data using the open-source GeoPy package to match latitude-longitude coordinate pairs to countries, thereby identifying the regions that benefitted most from the company's product. Finally, I performed a time series analysis to explore the number of unique users of the product as a function of time, identifying periods of high and low traffic.
+
+Below are some example data visualizations that I created as a part of my EDA. The full analysis can be viewed in the Jupyter Notebook located in the project repository linked [here](https://github.com/breynolds1247/NN_technicalAssessment/blob/main/ExploratoryAnalysis.ipynb)
+
+<p align="center">
+  <img src="Images/LatencyHist.png" alt="Latency Metric Histogram" width="500"/>
+</p>
+  
+<p align="center">
+  <img src="Images/LatencyVsPlatform.png" alt="Latency Vs Platform Boxplot" width="500"/>
+</p>
+
+<p align="center">
+  <img src="Images/UserLocationMap.png" alt="User Location Map" width="500"/>
+</p>
+
+<p align="center">
+  <img src="Images/UsersPerCountry.png" alt="Users Per Country Bar Graph" width="500"/>
+</p>
+
+<p align="center">
+  <img src="Images/UsersVsTime.png" alt="Users Vs Timestamp Plot" width="500"/>
+</p>
+
+
+## 3. [Web Scraping and Visualizing NFL Fantasy Football Stats](https://github.com/breynolds1247/projects/tree/main/NFLPlayerStatVisualizations)
 
 **Technical skills used in this project:** Python (Pandas, Matplotlib, Numpy, BeautifulSoup), Web Scraping, Data Cleaning, Plotting/Visualizations
 
