@@ -38,9 +38,9 @@ Slides for this project presentation given to The Erdos Institute are available 
 
 ## 2. [Exploratory Data Analysis Work Sample](https://github.com/breynolds1247/NN_technicalAssessment/blob/main/ExploratoryAnalysis.ipynb)
 
-**Technical skills used in this project:** Python (Pandas, Numpy, Matplotlib, Seaborn, Plotly), Jupyter Notebooks, Data Cleaning, Time Series Analysis, Data Visualizations, Interactive Visualizations
+*This project was completed as a work sample for a company that provides a service to increase network performance for multiplayer video games. The assignment was to perform an exploratory data analysis given a dataset containing network performance and user information.*
 
-This project was completed as a work sample for a company that provides a service to increase network performance for multiplayer video games. The assignment was to perform an exploratory data analysis given a dataset containing network performance and user information.
+**Technical skills used in this project:** Python (Pandas, Numpy, Matplotlib, Seaborn, Plotly), Jupyter Notebooks, Data Cleaning, Time Series Analysis, Data Visualizations, Interactive Visualizations
 
 The first step was to clean the data. I did this by removing duplicate rows, as well as those with unexpected null or zero-valued entries. Additionally, I cleaned up the variable types where applicable.
 
