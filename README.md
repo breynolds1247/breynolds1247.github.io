@@ -34,6 +34,8 @@ Interactive web applications have been deployed for the [artist classifier](http
   <img src="Images/style_transfer.png" alt="Style Transfer App Example" width="500"/>
 </p>
 
+Slides for this project presentation given to The Erdos Institute are available [here](Content/starryNight_slides.pdf). 
+
 
 ## 2. [Web Scraping and Visualizing NFL Fantasy Football Stats](https://github.com/breynolds1247/projects/tree/main/NFLPlayerStatVisualizations)
 
